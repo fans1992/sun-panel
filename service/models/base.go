@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"time"
 
+	"github.com/glebarez/sqlite"
+	_ "github.com/glebarez/sqlite"
 	_ "gorm.io/driver/mysql"
-	"gorm.io/driver/sqlite"
-	_ "gorm.io/driver/sqlite"
 	"gorm.io/gorm"
 	"gorm.io/gorm/schema"
 )
